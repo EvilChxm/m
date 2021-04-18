@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>江苏省中医院博物馆</title>
+
+    <!-- Bootstrap -->
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    /> -->
+    <link href="../bootstrap.min.css" rel="stylesheet" />
+    <link href="./index.css" rel="stylesheet" />
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="mc-nav-box">
+        <div class="mc-nav base-width">
+          <div class="navbar">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button
+                  type="button"
+                  class="navbar-toggle collapsed"
+                  data-toggle="collapse"
+                  data-target="#bs-example-navbar-collapse-1"
+                  aria-expanded="false"
+                >
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                  <img src="../assets/logo.svg" />
+                </a>
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div
+                class="collapse navbar-collapse"
+                id="bs-example-navbar-collapse-1"
+              >
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="mc-nav-item"><a href="../index.html">首页</a></li>
+                  <li class="mc-nav-item">
+                    <a href="../info/intro.html">博物馆概况</a>
+                  </li>
+                  <li class="mc-nav-item">
+                    <a href="../news/news.html">新闻公告</a>
+                  </li>
+                  <li class="mc-nav-item">
+                    <a href="../collection/index.html">馆藏精粹</a>
+                  </li>
+                  <li class="mc-nav-item">
+                    <a href="../medicine/index.html">本草擷珍</a>
+                  </li>
+                  <li class="mc-nav-item active">
+                    <a href="../education/index.html">科普教育</a>
+                  </li>
+                  <li class="mc-nav-item">
+                    <a href="../exhibition/index.html">服务指南</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+          </div>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <div class="main-content-container base-width">
+          <div class="main-content-sider">
+            <div class="sider-list">
+              <div class="sider-list-item active">
+                <a>
+                  <span class="sider-list-item__icon"
+                    ><img src="../assets/images/education/2.png"
+                  /></span>
+                  <span class="sider-list-item__title">中医百科</span>
+                </a>
+              </div>
+              <div class="sider-list-item">
+                <a href="./article.html">
+                  <span class="sider-list-item__icon"
+                    ><img src="../assets/images/education/4.png"
+                  /></span>
+                  <span class="sider-list-item__title">文博天地</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="main-content-container__right">
+            <div class="content">
+              <div class="m-tabs">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                  <li role="presentation" class="active">
+                    <a
+                      href="#home"
+                      aria-controls="home"
+                      role="tab"
+                      data-toggle="tab"
+                      >中医名词</a
+                    >
+                  </li>
+                  <li role="presentation">
+                    <a
+                      href="#profile"
+                      aria-controls="profile"
+                      role="tab"
+                      data-toggle="tab"
+                      >中药传说</a
+                    >
+                  </li>
+                  <li role="presentation">
+                    <a
+                      href="#messages"
+                      aria-controls="messages"
+                      role="tab"
+                      data-toggle="tab"
+                      >养生保健</a
+                    >
+                  </li>
+                  <li role="presentation">
+                    <a
+                      href="#pre"
+                      aria-controls="pre"
+                      role="tab"
+                      data-toggle="tab"
+                      >古代名家轶事</a
+                    >
+                  </li>
+                  <li role="presentation">
+                    <a
+                      href="#now"
+                      aria-controls="now"
+                      role="tab"
+                      data-toggle="tab"
+                      >现代医家</a
+                    >
+                  </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div role="tabpanel" class="tab-pane active" id="home">
+                    <!-- 中药名词 -->
+                    <div
+                      class="panel-group"
+                      id="accordion"
+                      role="tablist"
+                      aria-multiselectable="true"
+                    >
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                          <h4 class="panel-title">
+                            <a class="collapsed"> 痹症 </a>
+                            <span
+                              class="collapse-icon"
+                              data-toggle="collapse"
+                              data-parent="#accordion"
+                              href="#collapseTwo"
+                              aria-expanded="false"
+                              aria-controls="collapseTwo"
+                              >展开</span
+                            >
+                          </h4>
+                        </div>
+                        <div
+                          id="collapseTwo"
+                          class="panel-collapse collapse"
+                          role="tabpanel"
+                          aria-labelledby="headingTwo"
+                        >
+                          <div class="panel-body">
+                            <p style="text-indent: 2em">
+                              泛指邪气闭阻躯体或内脏的经络而引起的病症。“痹”即闭阻不通。通常多指风、寒、湿三种邪气，侵犯肌表经络和骨节，发生关节或肌肉疼痛，肿大和重着等一类疾患。《素问·痹论》曰：“风、寒、湿三气杂至，合而为也。”在临床上主要可分“风痹”“寒痹”“湿痹”和“热痹”四种。
+                            </p>
+                            <p>风痹</p>
+                            <p style="text-indent: 2em">
+                              又称“行痹”或“周痹”，俗称“走注”。临床表现肢体酸痛，痛而游走无定处。病因风寒湿三邪中以风邪偏胜，而风邪易于游走所致。故《素问·痹论》曰：“其风气胜者，为行痹。”
+                            </p>
+                            <p>寒痹</p>
+                            <p style="text-indent: 2em">
+                              又称“痛痹”。临床表现为肢体酸痛、且疼痛程度较为剧烈，遇寒痛增，得热痛减。病因为风寒湿中以寒邪偏胜，使气血凝滞不通所致。故《素问·痹论》说：“寒气胜者，为痛痹。”
+                            </p>
+                            <p>湿痹</p>
+                            <p style="text-indent: 2em">
+                              又称“着痹”。临床表现为肌肤麻木，关节重着，肿痛处固定不移。病因风寒湿三邪中以湿邪偏胜，湿性粘滞所致。故《素问·痹论》：“湿气胜者，为着痹也。”
+                            </p>
+                            <p>热痹</p>
+                            <p style="text-indent: 2em">
+                              临床表现为关节红肿热痛，常伴有发热，恶风、口渴、胸闷等全身症状。病因素有蕴热，再感受风寒，热为寒郁，气机不通，久则寒亦化热；或风寒湿之邪留滞经络，日久化热而成。
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                          <h4 class="panel-title">
+                            <a class="collapsed" role="button"> 辨证论治 </a>
+                            <span
+                              class="collapse-icon"
+                              data-toggle="collapse"
+                              data-parent="#accordion"
+                              href="#collapse2"
+                              aria-expanded="false"
+                              aria-controls="collapse2"
+                              >展开</span
+                            >
+                          </h4>
+                        </div>
+                        <div
+                          id="collapse2"
+                          class="panel-collapse collapse"
+                          role="tabpanel"
+                          aria-labelledby="headingTwo"
+                        >
+                          <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod
+                            high life accusamus terry richardson ad squid. 3
+                            wolf moon officia aute, non cupidatat skateboard
+                            dolor brunch. Food truck quinoa nesciunt laborum
+                            eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put
+                            a bird on it squid single-origin coffee nulla
+                            assumenda shoreditch et. Nihil anim keffiyeh
+                            helvetica, craft beer labore wes anderson cred
+                            nesciunt sapiente ea proident. Ad vegan excepteur
+                            butcher vice lomo. Leggings occaecat craft beer
+                            farm-to-table, raw denim aesthetic synth nesciunt
+                            you probably haven't heard of them accusamus labore
+                            sustainable VHS.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="profile">
+                    .3333.
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="messages">
+                    .444..
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="settings">
+                    .5555.
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="now">现代医家</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="m-footer">
+        <div class="m-footer-content base-width">
+          <div class="m-footer-info">
+            <div class="m-footer-info__logo">
+              <img src="../assets/logo-footer.svg" />
+            </div>
+            <div class="m-footer-contact">
+              <span class="m-footer-contact__tel">咨询电话：17826043816</span>
+              <span class="m-footer-contact__address"
+                >地址：江苏省南京市南京中医药大学仙林校区</span
+              >
+            </div>
+            <div class="m-footer-copyright">
+              Copyright© 2012-2019 版权所有 XXXXXXXXX有限公司 苏ICP证XX-XXXXXXXX
+              苏ICP备XXXXXX
+            </div>
+          </div>
+          <div class="m-footer-code">
+            <div class="m-footer-code__img">
+              <img src="" />
+            </div>
+            <span class="m-footer-code__title">微信公众号</span>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script> -->
+    <script src="../jq.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script> -->
+    <script src="../bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>江苏省中医院博物馆</title>
+
+    <!-- Bootstrap -->
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    /> -->
+    <link href="../bootstrap.min.css" rel="stylesheet" />
+    <link href="./index.css" rel="stylesheet" />
+    <link href="../pagination.css" rel="stylesheet" />
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="mc-nav-box">
+        <div class="mc-nav base-width">
+          <div class="navbar">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button
+                  type="button"
+                  class="navbar-toggle collapsed"
+                  data-toggle="collapse"
+                  data-target="#bs-example-navbar-collapse-1"
+                  aria-expanded="false"
+                >
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                  <img src="../assets/logo.svg" />
+                </a>
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div
+                class="collapse navbar-collapse"
+                id="bs-example-navbar-collapse-1"
+              >
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="mc-nav-item"><a href="../index.html">首页</a></li>
+                  <li class="mc-nav-item">
+                    <a href="../info/intro.html">博物馆概况</a>
+                  </li>
+                  <li class="mc-nav-item active">
+                    <a href="../news/news.html">新闻公告</a>
+                  </li>
+                  <li class="mc-nav-item">
+                    <a href="../collection/index.html">馆藏精粹</a>
+                  </li>
+                  <li class="mc-nav-item">
+                    <a href="../medicine/index.html">本草擷珍</a>
+                  </li>
+                  <li class="mc-nav-item">
+                    <a href="../education/index.html">科普教育</a>
+                  </li>
+                  <li class="mc-nav-item">
+                    <a href="../exhibition/index.html">服务指南</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+          </div>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <div class="main-content-container base-width">
+          <div class="main-content-sider">
+            <div class="sider-list">
+              <div class="sider-list-item active">
+                <a>
+                  <span class="sider-list-item__icon"
+                    ><img src="../assets/images/news/2.png"
+                  /></span>
+                  <span class="sider-list-item__title">通知公告</span>
+                </a>
+              </div>
+              <div class="sider-list-item">
+                <a href="./news.html">
+                  <span class="sider-list-item__icon"
+                    ><img src="../assets/images/news/4.png"
+                  /></span>
+                  <span class="sider-list-item__title">博物馆新闻</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="main-content-container__right">
+            <div class="breadcrumb">新闻公告 / 博物馆新闻</div>
+            <div class="content">
+              <!-- 搜索框 -->
+              <div class="search-box">
+                <div class="search-box-input">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="关键词"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+                <div class="search-box-button">
+                  <button type="button" class="btn" aria-label="Left Align">
+                    搜索
+                  </button>
+                </div>
+              </div>
+              <!-- list -->
+              <div class="notice-list row">
+                <div class="col-md-6">
+                  <div class="notice-list-item">
+                    <a href="./notice-detail.html">
+                      <span class="notice-list-item__time">2021.02.02</span>
+                      <div class="notice-list-item__title">
+                        博物馆暑假放假安排博物馆暑假放假安排
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="notice-list-item">
+                    <a href="./notice-detail.html">
+                      <span class="notice-list-item__time">2021.02.02</span>
+                      <div class="notice-list-item__title">
+                        博物馆暑假放假安排博物馆暑假放假安排
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="notice-list-item">
+                    <a href="./notice-detail.html">
+                      <span class="notice-list-item__time">2021.02.02</span>
+                      <div class="notice-list-item__title">
+                        博物馆暑假放假安排博物馆暑假放假安排
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="notice-list-item">
+                    <a href="./notice-detail.html">
+                      <span class="notice-list-item__time">2021.02.02</span>
+                      <div class="notice-list-item__title">
+                        博物馆暑假放假安排博物馆暑假放假安排
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="notice-list-item">
+                    <a href="./notice-detail.html">
+                      <span class="notice-list-item__time">2021.02.02</span>
+                      <div class="notice-list-item__title">
+                        博物馆暑假放假安排博物馆暑假放假安排
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="notice-list-item">
+                    <a href="./notice-detail.html">
+                      <span class="notice-list-item__time">2021.02.02</span>
+                      <div class="notice-list-item__title">
+                        博物馆暑假放假安排博物馆暑假放假安排
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="notice-list-item">
+                    <a href="./notice-detail.html">
+                      <span class="notice-list-item__time">2021.02.02</span>
+                      <div class="notice-list-item__title">
+                        博物馆暑假放假安排博物馆暑假放假安排
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="notice-list-item">
+                    <a href="./notice-detail.html">
+                      <span class="notice-list-item__time">2021.02.02</span>
+                      <div class="notice-list-item__title">
+                        博物馆暑假放假安排博物馆暑假放假安排
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- 分页 -->
+              <div class="m-pageination">
+                <div id="m-page"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="m-footer">
+        <div class="m-footer-content base-width">
+          <div class="m-footer-info">
+            <div class="m-footer-info__logo">
+              <img src="../assets/logo-footer.svg" />
+            </div>
+            <div class="m-footer-contact">
+              <span class="m-footer-contact__tel">咨询电话：17826043816</span>
+              <span class="m-footer-contact__address"
+                >地址：江苏省南京市南京中医药大学仙林校区</span
+              >
+            </div>
+            <div class="m-footer-copyright">
+              Copyright© 2012-2019 版权所有 XXXXXXXXX有限公司 苏ICP证XX-XXXXXXXX
+              苏ICP备XXXXXX
+            </div>
+          </div>
+          <div class="m-footer-code">
+            <div class="m-footer-code__img">
+              <img src="" />
+            </div>
+            <span class="m-footer-code__title">微信公众号</span>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script> -->
+    <script src="../jq.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script> -->
+    <script src="../bootstrap.min.js"></script>
+    <script src="../pagination.js"></script>
+    <script src="../render.js"></script>
+
+    <script type="text/javascript">
+      (function (global) {
+        var id = 0,
+          container = document.getElementsByTagName("head")[0];
+
+        function jsonp(options) {
+          if (!options || !options.url) return;
+
+          var scriptNode = document.createElement("script"),
+            data = options.data || {},
+            url = options.url,
+            callback = options.callback,
+            fnName = "jsonp" + id++;
+
+          // 添加回调函数
+          data["callback"] = fnName;
+
+          // 拼接url
+          var params = [];
+          for (var key in data) {
+            params.push(
+              encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+            );
+          }
+          url = url.indexOf("?") > 0 ? url + "&" : url + "?";
+          url += params.join("&");
+          scriptNode.src = url;
+
+          // 传递的是一个匿名的回调函数，要执行的话，暴露为一个全局方法
+          global[fnName] = function (ret) {
+            callback && callback(ret);
+            container.removeChild(scriptNode);
+            delete global[fnName];
+          };
+
+          // 出错处理
+          scriptNode.onerror = function () {
+            callback && callback({ error: "error" });
+            container.removeChild(scriptNode);
+            global[fnName] && delete global[fnName];
+          };
+
+          scriptNode.type = "text/javascript";
+          container.appendChild(scriptNode);
+        }
+
+        global.jsonp = jsonp;
+      })(this);
+
+      jsonp({
+        url: "http://47.100.44.142:8080/news/findPage?pageNo=1&pageSize=10",
+        data: {},
+        callback: function (ret) {
+          console.log(ret);
+        },
+      });
+      // $.ajax({
+      //   url: "http://47.100.44.142:8080/news/findPage?pageNo=1&pageSize=10",
+      //   // url: 'http://47.100.44.142:8080/announcement/findPage?pageNo=1&pageSize=10',
+      //   success: function (res) {
+      //     console.log(res, 11);
+      //   },
+      // });
+      $("#m-page").pagination({
+        pages: 20,
+        cssStyle: "light-theme",
+      });
+
+      var template =
+        '<div class="col-md-6"><div class="notice-list-item"><a href="./notice-detail.html"><span class="notice-list-item__time">{{time}}</span><div class="notice-list-item__title">{{title}}</div></a></div></div>';
+      var html = render(template, {title: 'aaa', time: '2021.04.15'})
+      console.log(html)
+      // $('.notice-list').html(html)
+    </script>
+  </body>
+</html>
